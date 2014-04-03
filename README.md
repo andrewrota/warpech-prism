@@ -3,6 +3,10 @@ warpech-prism
 
 A Custom Element for syntax highlighting with [Prism.js](http://prismjs.com/)
 
+### Demo
+
+[Click here to see a live demo](http://warpech.github.io/warpech-prism)
+
 ### Attributes
 
 #### `language`
