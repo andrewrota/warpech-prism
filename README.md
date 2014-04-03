@@ -1,7 +1,7 @@
 warpech-prism
 =============
 
-A Custom Element for syntax highlighting with Prism.js
+A Custom Element for syntax highlighting with [Prism.js](http://prismjs.com/)
 
 ### Attributes
 
