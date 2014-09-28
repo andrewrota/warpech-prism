@@ -2,8 +2,7 @@
 <html>
 <head>
   <title>warpech-prism</title>
-  <script src="http://www.polymer-project.org/platform.js"></script>
-  <link rel="import" href="warpech-prism.html">
+  <link rel="import" href="code-prism.html">
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -20,7 +19,7 @@
 
 <p>Hightlights the code of warpech-prism itself!</p>
 
-<warpech-prism language="markup" theme="okaidia">
+<code-prism language="markup" theme="okaidia">
 &lt;script data-manual src=&quot;../prism.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
   (function (global) {
@@ -52,12 +51,12 @@
       Prism.highlightElement(code, false);
     };
 
-    global.WarpechPrismElement = document.registerElement('warpech-prism', {
+    global.WarpechPrismElement = document.registerElement('code-prism', {
       prototype: WarpechPrismPrototype
     });
   })(window);
 &lt;/script&gt;
-</warpech-prism>
+</code-prism>
 
 </body>
 </html>
